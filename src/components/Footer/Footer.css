@@ -1,0 +1,75 @@
+#main-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10%;
+    background-color: wheat;
+}
+.row-f{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10%;
+}
+#col > label{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    
+}
+#col > a{
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+}
+
+
+.col-right{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+#socials{
+    display: flex;
+    justify-content: space-between;
+}
+.col-l > span{
+    padding: 1% 0%; 
+    font-size: medium;
+}
+.col-l >#email {
+    text-transform: lowercase;
+}
+.col-l > #socials{
+    padding: 5% 0%;
+}
+.col-l{
+    display: flex;
+    width: 20vw;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: space-around;
+}
+.col-l > img{
+    width: 4vw;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+}
+.row-cr{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    padding-top: 3%;
+    font-weight: 500;
+    text-transform: capitalize;
+}

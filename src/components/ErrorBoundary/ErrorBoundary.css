@@ -1,0 +1,13 @@
+.row-err{
+    display: flex;
+    align-items: center;
+    background-color: rgb(222, 181, 255);
+    padding: 2%;
+    justify-content: center;
+}
+
+
+.row-err > img{
+    height: 80vh;
+    width: 40vw;
+}
